@@ -266,6 +266,7 @@ h3.title {
 .benefits .icon-box .icon {
     width: 64px;
     height: 64px;
+    fill: #2e2f42;
 }
 /*!our-team*/
 .our-team .items {
