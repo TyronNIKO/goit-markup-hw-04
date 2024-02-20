@@ -269,8 +269,6 @@ h3.title {
     border-radius: 4px;
 }
 .benefits .icon-box .icon {
-    width: 64px;
-    height: 64px;
     fill: #2e2f42;
 }
 /*!our-team*/
@@ -317,8 +315,6 @@ h3.title {
     background: #404bbf;
 }
 .our-team-content-list-item .icon {
-    width: 16px;
-    height: 16px;
     fill: #fff;
 }
 /*!our-portfolio*/
@@ -414,8 +410,6 @@ h3.title {
     background: #31d0aa;
 }
 .footer-socials-list-item .icon {
-    width: 24px;
-    height: 24px;
     fill: #fff;
 }
 
