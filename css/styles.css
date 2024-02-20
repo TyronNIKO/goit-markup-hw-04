@@ -24,9 +24,9 @@ a,
 button,
 :hover,
 :focus {
-    transition-duration: 0.25s;
-    transition-property: all;
-    transition-timing-function: ease-in-out;
+    transition-duration: 250ms;
+    transition-property: color, background-color, fill, box-shadow;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container {
     max-width: 1158px;
@@ -203,7 +203,7 @@ h3.title {
     text-decoration: none;
     color: #2e2f42;
     padding: 24px 0;
-    transition: all 250ms ease-in-out;
+    transition: color 250ms ease-in-out;
 }
 .nav .menu-item:focus,
 .nav .menu-item:hover {
@@ -218,7 +218,7 @@ h3.title {
     background: #404bbf;
     bottom: 0;
     opacity: 0;
-    transition: all 250ms ease-in-out;
+    transition: opacity 250ms ease-in-out;
 }
 .nav .menu-item:active:after {
     opacity: 1;
@@ -231,7 +231,7 @@ h3.title {
     align-items: center;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office 1.jpg");
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/hero-bg-full.jpg");
     background-size: cover;
 }
 .hero .content {
@@ -335,7 +335,7 @@ h3.title {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    transition: all 250ms ease-in-out;
+    transition: box-shadow 250ms ease-in-out;
 }
 .our-portfolio .item:hover .content,
 .our-portfolio .item:focus .content {
@@ -357,7 +357,7 @@ h3.title {
     width: 100%;
     height: 100%;
     transform: translateY(100%);
-    transition: all 250ms ease-in-out;
+    transition: transform 250ms ease-in-out;
     color: #f4f4fd;
 }
 
@@ -402,7 +402,7 @@ h3.title {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 250ms ease-in-out;
+    transition: background-color 250ms ease-in-out;
 }
 .footer-socials-list-item .item-link:hover,
 .footer-socials-list-item .item-link:focus {
